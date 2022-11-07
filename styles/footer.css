@@ -1,0 +1,36 @@
+/* Footer styles */
+
+/* Codepen for */
+
+.footer > .codepen-for-wrapper{
+    height: 70px;
+    display: flex;    
+}
+
+.footer > .codepen-for-wrapper > .codepen-for{
+    width: 100%;
+    background-color: #535252;
+    color: white;
+    border: 1px solid #aba8a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .codepen-for-wrapper > .codepen-for > .codepen-for-content{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.footer > .codepen-for-wrapper > .codepen-for > .codepen-for-content span{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+/* Bottom background */
+
+.footer > .bottom-background{
+    background-color:#171616 ;
+    height: 100px;
+}

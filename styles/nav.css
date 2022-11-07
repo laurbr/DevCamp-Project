@@ -1,0 +1,80 @@
+/*  Common nav styles */
+
+.navigation-wrapper{
+    height: 90px;
+    background-color: black;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 4fr;
+    grid-gap: 25px;
+    align-items: center;
+    padding: 10px 15px;
+} 
+
+/* Left column logo*/
+
+.navigation-wrapper > .left-column-logo >.logo img{
+    width: 200px;
+    height: 100%;
+    padding-left:10px;
+    padding-right: 30px;
+}
+
+/* Center column links*/
+
+.navigation-wrapper > .center-column-links{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.navigation-wrapper > .center-column-links > .links-introduction{
+    color:#ead67c;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.navigation-wrapper > .center-column-links > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column-links > .links-wrapper a{
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .center-column-links > .links-wrapper a span{
+    color: #aba8a8;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.navigation-wrapper > .center-column-links > .links-wrapper a i{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+
+/* Right column buttons*/
+
+.navigation-wrapper > .right-column-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column-buttons  > .buttons-wrapper{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
